@@ -1,8 +1,8 @@
-%let path = H:\GraphicsGroup\dummy\sdtm\r-style;
+%let path = H:\GitHub\srosanba\sas-sdtm-simulator;
 
-%include "&path/dm.sas";
-%include "&path/ae.sas";
-%include "&path/sv.sas";
-%include "&path/eg.sas";
-%include "&path/lb.sas";
-%include "&path/vs.sas";
+%include "&path/examples/dm.sas";
+%include "&path/examples/ae.sas";
+%include "&path/examples/sv.sas";
+%include "&path/examples/eg.sas";
+%include "&path/examples/lb.sas";
+%include "&path/examples/vs.sas";

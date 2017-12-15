@@ -1,4 +1,4 @@
-%let path = H:\GitHub\srosanba\sas-sdtm-simulator\examples;
+%let path = H:\GitHub\srosanba\sas-sdtm-simulator;
 
 %sysmacdelete sv_create / nowarn;
 %sysmacdelete required / nowarn;
