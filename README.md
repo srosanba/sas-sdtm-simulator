@@ -1,6 +1,8 @@
-This SAS-based SDTM simulator was created with a very narrow focus: to facilite the programming of displays utilizing safety data (AE, EG, LB, VS) prior to receipt of the first live cut of data. 
+This SAS-based SDTM simulator was created with a very narrow focus: to facilite the programming of displays utilizing safety data (AE, EG, LB, VS) prior to receipt of the first live cut of data. This is especially useful for a fast-enrolling study in which the turnaround interval between the first live cut of data and the first display delivery is uncomfortably short.
 
-The folders in this repository contain:
+If you just want to start playing with the data, jump straight to the data folder. 
+
+If you want to learn how the sausage is made, and possibly modify the recipe, the folders in this repository contain:
 
 * macros  
   * Macros used to generate SDTM datasets.
