@@ -2,6 +2,8 @@ This SAS-based SDTM simulator was created with a very narrow focus: to facilite 
 
 If you just want to start playing with the data, jump straight to the [data](https://github.com/srosanba/sas-sdtm-simulator/tree/master/data) folder. 
 
+![example DM dataset](https://github.com/srosanba/sas-sdtm-simulator/tree/master/img/dm.png)
+
 If you want to learn how the sausage is made, and possibly modify the recipe, the folders in this repository contain:
 
 * [macros](https://github.com/srosanba/sas-sdtm-simulator/tree/master/macros)  
