@@ -12,6 +12,7 @@
    DATE        PROGRAMMER        DESCRIPTION
    ---------   ---------------   ------------------------------------------------------
    2017-12-15  Shane Rosanbalm   Create.
+   2017-12-20  Shane Rosanbalm   Update DOMAIN with &domain.
 
 *--------------------------------------------------------------------------------------*/
 
@@ -93,6 +94,7 @@
    data _findings_kernel_10;
       set &sv;
       by usubjid visitnum;
+      domain = upcase("&domain");
       %local i;
       %do i = 1 %to &testcd_n;
          &domain.testn = &i;

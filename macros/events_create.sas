@@ -52,6 +52,7 @@
    DATE        PROGRAMMER        DESCRIPTION
    ---------   ---------------   ------------------------------------------------------
    2017-12-15  Shane Rosanbalm   Create.
+   2017-12-20  Shane Rosanbalm   Update DOMAIN with &domain.
 
 *--------------------------------------------------------------------------------------*/
 
@@ -114,6 +115,7 @@
    data _events_10;
       call streaminit(8675309);
       set sdtm.dm;
+      domain = upcase("&domain");
       events_pre = rand("POISSON",&events_pre);
       events_during = rand("POISSON",&events_during);
       events_post = rand("POISSON",&events_post);

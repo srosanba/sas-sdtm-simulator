@@ -12,6 +12,7 @@
    DATE        PROGRAMMER        DESCRIPTION
    ---------   ---------------   ------------------------------------------------------
    2017-12-15  Shane Rosanbalm   Create.
+   2017-12-20  Shane Rosanbalm   Update DOMAIN.
 
 *--------------------------------------------------------------------------------------*/
 
@@ -23,6 +24,7 @@
          call streaminit(&streaminit); ;
       set &dm;
       by usubjid;
+      domain = "SV";
       _rfstdtc = input(rfstdtc,yymmdd10.);
       _rfendtc = input(rfendtc,yymmdd10.);
       length visit $100;
